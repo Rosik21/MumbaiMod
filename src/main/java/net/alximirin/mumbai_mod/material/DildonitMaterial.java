@@ -1,10 +1,12 @@
-package net.alximirin.mumbai_mod;
+package net.alximirin.mumbai_mod.material;
 
+import net.alximirin.mumbai_mod.registry.RegistryItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class Materials implements ToolMaterial {
-    public static final Materials INSTANCE = new Materials();
+public class DildonitMaterial implements ToolMaterial {
+    public static final DildonitMaterial INSTANCE = new DildonitMaterial();
+
     @Override
     public int getDurability() {
         return 69;
@@ -32,7 +34,7 @@ public class Materials implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Ingots.DILDONIT);
+        return Ingredient.ofItems(RegistryItem.DILDONIT_INGOT);
     }
 
 }

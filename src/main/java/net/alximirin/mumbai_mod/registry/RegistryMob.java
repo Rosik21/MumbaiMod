@@ -18,7 +18,7 @@ public class RegistryMob {
             FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, MumbaiEntity::new).dimensions(EntityDimensions.fixed(0.6f, 1.95f)).build()
     );
 
-    public static void init() {
+    public static void initialize() {
         FabricDefaultAttributeRegistry.register(
                 MUMBAI,
                 MumbaiEntity
