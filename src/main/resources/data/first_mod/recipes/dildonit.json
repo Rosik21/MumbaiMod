@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:diamond_block"
+    },
+    "X": {
+      "item": "minecraft:pink_dye"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "minecraft:emerald_block"
+    },
+    "D": {
+      "item": "minecraft:gold_block"
+    },
+    "E": {
+      "item": "minecraft:copper_block"
+    },
+    "F": {
+      "item": "minecraft:coal_block"
+    },
+    "G": {
+      "item": "minecraft:lapis_block"
+    },
+    "H": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    ["A", "B", "C"],
+    ["D", "X", "E"],
+    ["F", "G", "H"]
+  ],
+  "result": {
+    "item": "first_mod:dildonit",
+    "count": 1
+  }
+}

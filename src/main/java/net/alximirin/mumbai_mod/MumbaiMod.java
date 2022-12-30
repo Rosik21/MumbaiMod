@@ -19,7 +19,7 @@ public class MumbaiMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "dildo_sergay"), Dildos.DILDO_SERGAY);
-		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "dildonit"), Ingots.DILDONIT);
+		Registry.register(Registry.ITEM, new Identifier(MOD_ID, "dildonit.json"), Ingots.DILDONIT);
 
 		RegistryMob.init();
 	}
