@@ -30,9 +30,9 @@
     }
   },
   "pattern": [
-    ["A", "B", "C"],
-    ["D", "X", "E"],
-    ["F", "G", "H"]
+    "ABC",
+    "DXE",
+    "FGH"
   ],
   "result": {
     "item": "mumbai_mod:dildonit_ingot",
