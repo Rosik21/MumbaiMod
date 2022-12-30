@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "first_mod:item/dildonit"
+    "layer0": "mumbai_mod:item/dildonit_ingot"
   }
 }

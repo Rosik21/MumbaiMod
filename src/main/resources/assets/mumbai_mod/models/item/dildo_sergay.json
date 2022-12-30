@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "first_mod:item/dildo_sergay"
+    "layer0": "mumbai_mod:item/dildo_sergay"
   }
 }
