@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package net.alximirin.mumbai_mod;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;

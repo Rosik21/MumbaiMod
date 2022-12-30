@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package net.alximirin.mumbai_mod;
 
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;

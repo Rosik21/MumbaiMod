@@ -18,8 +18,11 @@
 
   "environment": "*",
   "entrypoints": {
+    "client": [
+      "net.alximirin.mumbai_mod.MumbaiModClient"
+    ],
     "main": [
-      "net.fabricmc.example.ModCore"
+      "net.alximirin.mumbai_mod.MumbaiMod"
     ]
   },
   "mixins": [
