@@ -9,7 +9,7 @@ import net.minecraft.world.World;
 public class MumbaiEntity extends ZombieEntity {
     public MumbaiEntity(EntityType<? extends ZombieEntity> entityType, World world) {
         super(entityType, world);
-        setCustomName(Text.translatable("Dildonion"));
+        setCustomName(Text.translatable("Mumbai"));
     }
 
     @Override
