@@ -5,7 +5,7 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "first_mod:dildonit"
+      "item": "mumbai_mod:dildonit_ingot"
     }
   },
   "pattern": [
@@ -14,7 +14,7 @@
     "#"
   ],
   "result": {
-    "item": "first_mod:dildo_sergay",
+    "item": "mumbai_mod:dildo_sergay",
     "count": 1
   }
 }
