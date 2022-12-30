@@ -15,7 +15,6 @@ public class MumbaiEntityModel extends BipedEntityModel<ZombieEntity> {
         super.setAngles(livingEntity, f, g, h, i, j);
     }
 
-    // You can use BlockBench, make your model and export it to get this method for your entity model.
     public static TexturedModelData getTexturedModelData() {
         ModelData modelData = new ModelData();
         ModelPartData modelPartData = modelData.getRoot();
