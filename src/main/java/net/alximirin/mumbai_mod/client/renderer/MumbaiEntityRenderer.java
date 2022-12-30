@@ -9,13 +9,13 @@ import net.minecraft.util.Identifier;
 
 import static net.alximirin.mumbai_mod.MumbaiMod.MOD_ID;
 
-public class DildonionEntityRenderer extends MobEntityRenderer<ZombieEntity, ZombieEntityModel<ZombieEntity>> {
-    public DildonionEntityRenderer(EntityRendererFactory.Context context) {
-        super(context, new ZombieEntityModel<>(context.getPart(MumbaiModClient.MODEL_DILDONION_LAYER)), 0.5f);
+public class MumbaiEntityRenderer extends MobEntityRenderer<ZombieEntity, ZombieEntityModel<ZombieEntity>> {
+    public MumbaiEntityRenderer(EntityRendererFactory.Context context) {
+        super(context, new ZombieEntityModel<>(context.getPart(MumbaiModClient.MODEL_MUMBAI_LAYER)), 0.5f);
     }
 
     @Override
     public Identifier getTexture(ZombieEntity entity) {
-        return new Identifier(MOD_ID, "textures/entity/dildonion/dildonion.png");
+        return new Identifier(MOD_ID, "textures/entity/mumbai/mumbai.png");
     }
 }

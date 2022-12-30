@@ -5,8 +5,8 @@ import net.minecraft.client.render.entity.model.BipedEntityModel;
 import net.minecraft.client.render.entity.model.EntityModelPartNames;
 import net.minecraft.entity.mob.ZombieEntity;
 
-public class DildonionEntityModel extends BipedEntityModel<ZombieEntity> {
-    public DildonionEntityModel(ModelPart modelPart) {
+public class MumbaiEntityModel extends BipedEntityModel<ZombieEntity> {
+    public MumbaiEntityModel(ModelPart modelPart) {
         super(modelPart);
     }
 

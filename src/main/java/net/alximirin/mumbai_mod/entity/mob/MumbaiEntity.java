@@ -6,8 +6,8 @@ import net.minecraft.nbt.NbtCompound;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
 
-public class DildonionEntity extends ZombieEntity {
-    public DildonionEntity(EntityType<? extends ZombieEntity> entityType, World world) {
+public class MumbaiEntity extends ZombieEntity {
+    public MumbaiEntity(EntityType<? extends ZombieEntity> entityType, World world) {
         super(entityType, world);
         setCustomName(Text.translatable("Dildonion"));
     }
