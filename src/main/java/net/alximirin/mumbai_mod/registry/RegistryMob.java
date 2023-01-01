@@ -15,7 +15,10 @@ public class RegistryMob {
     public static final EntityType<MumbaiEntity> MUMBAI = Registry.register(
             Registry.ENTITY_TYPE,
             new Identifier(MumbaiMod.MOD_ID, "mumbai"),
-            FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, MumbaiEntity::new).dimensions(EntityDimensions.fixed(0.6f, 1.95f)).build()
+            FabricEntityTypeBuilder
+                    .create(SpawnGroup.MONSTER, MumbaiEntity::new)
+                    .dimensions(EntityDimensions.fixed(0.6f, 1.95f))
+                    .build()
     );
 
     public static void initialize() {
